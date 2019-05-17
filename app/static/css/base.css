@@ -1,0 +1,117 @@
+body {
+    background-color: whitesmoke !important;
+}
+
+.register-form {
+    width: 80%;
+    max-width: 700px;
+    margin: 40px auto;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 2px 2px 6px 0px lightgrey;
+}
+
+.register-form .btn {
+    min-width: 40%;
+    display: block;
+    margin: 10px auto 10px auto;
+}
+
+.register-form .input-group input {
+    border-radius: 0;
+}
+
+.register-form hr {
+    margin: 1.5rem auto;
+}
+
+.form-control:focus {
+    box-shadow: none !important;
+}
+
+.auth-error-alert {
+    color: #dc3545;
+}
+
+.main-container {
+    padding: 50px;
+}
+
+.main-container .post-form .btn-outline-danger {
+    float: right;
+}
+
+.main-container .post-form {
+    padding: 20px;
+    background-color: aliceblue;
+    box-shadow: 2px 2px 6px 0px lightgray;
+    margin-bottom: 40px;
+}
+
+.main-container .list-group .list-group-item .post-author {
+    float: right;
+    margin: 0.1em;
+}
+
+.main-container .list-group .list-group-item .post-title {
+    font-size: 1.2em;
+    font-weight: 600;
+}
+
+.main-container .list-group .list-group-item .post-author-role {
+    font-weight: 500;
+    padding-left: 1em;
+}
+
+.main-container .post {
+    padding: 1.8em;
+    background-color: white;
+    box-shadow: 2px 2px 6px 0px lightgray;
+    margin-bottom: 40px;
+}
+
+.main-container .comment-container {
+    margin-top: 40px;
+}
+
+.main-container .comment-container .comment {
+    padding: 20px;
+    box-shadow: 2px 2px 6px 0px lightgrey;
+    background-color: white;
+    margin: 10px auto;
+}
+
+.main-container .comment-container .comment .comment-author {
+    font-weight: 500;
+    padding-right: 4em;
+    display: block;
+}
+
+.main-container .post .post-author {
+    float: right;
+    margin: 0.1em;
+}
+
+.main-container .post h1 {
+    display: inline-block;
+}
+
+.older-posts {
+    float: left;
+    margin: 30px auto;
+}
+
+.newer-posts {
+    float: right;
+    margin: 30px auto;
+}
+
+#message-count {
+    padding: 0.3em 0.8em;
+    font-size: 0.8em;
+}
+
+.message-read {
+    color: crimson;
+    float: right;
+}
